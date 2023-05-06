@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true">
         <receiver
-            android:name=".RythemMusicWidget"
+            android:name=".BlackHoleMusicWidget"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
