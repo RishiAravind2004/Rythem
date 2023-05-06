@@ -70,8 +70,8 @@ flutter:
     - assets/
 
 msix_config:
-  display_name: BlackHole
-  publisher_display_name: Ankit Sangwan
+  display_name: Rythem
+  publisher_display_name: Rishi Aravind
   identity_name: com.shadow.blackhole
   icons_background_color: transparent
   logo_path: assets/ic_launcher.png
