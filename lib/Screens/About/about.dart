@@ -110,7 +110,6 @@ class _AboutScreenState extends State<AboutScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    Text('v$appVersion'),
                   ],
                 ),
                 Padding(
@@ -121,27 +120,6 @@ class _AboutScreenState extends State<AboutScreen> {
                         AppLocalizations.of(context)!.aboutLine1,
                         textAlign: TextAlign.center,
                         style: const TextStyle(fontSize: 16),
-                      ),
-                      TextButton(
-                        onPressed: () {
-                          launchUrl(
-                            Uri.parse(
-                              'https://github.com/Sangwan5688/BlackHole',
-                            ),
-                            mode: LaunchMode.externalApplication,
-                          );
-                        },
-                        child: SizedBox(
-                          width: MediaQuery.of(context).size.width / 4,
-                          child: Image(
-                            image: Theme.of(context).brightness ==
-                                    Brightness.dark
-                                ? const AssetImage(
-                                    'assets/GitHub_Logo_White.png',
-                                  )
-                                : const AssetImage('assets/GitHub_Logo.png'),
-                          ),
-                        ),
                       ),
                       Text(
                         AppLocalizations.of(context)!.aboutLine2,
@@ -161,7 +139,7 @@ class _AboutScreenState extends State<AboutScreen> {
                       onPressed: () {
                         launchUrl(
                           Uri.parse(
-                            'https://www.buymeacoffee.com/ankitsangwan',
+                            'https://www.youtube.com/channel/UCgP6qVjuIVItBFQaFU7DHMA',
                           ),
                           mode: LaunchMode.externalApplication,
                         );
@@ -172,11 +150,6 @@ class _AboutScreenState extends State<AboutScreen> {
                           image: AssetImage('assets/black-button.png'),
                         ),
                       ),
-                    ),
-                    Text(
-                      AppLocalizations.of(context)!.or,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(fontSize: 12),
                     ),
                     TextButton(
                       style: TextButton.styleFrom(
@@ -195,7 +168,7 @@ class _AboutScreenState extends State<AboutScreen> {
                       onLongPress: () {
                         copyToClipboard(
                           context: context,
-                          text: 'ankit.sangwan.5688@oksbi',
+                          text: 'rishikesh1878@oksbi',
                           displayText: AppLocalizations.of(
                             context,
                           )!
