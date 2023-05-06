@@ -115,7 +115,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               children: [
                                 RichText(
                                   text: TextSpan(
-                                    text: 'Black\nHole\n',
+                                    text: 'Rythem\n',
                                     style: TextStyle(
                                       height: 0.97,
                                       fontSize: 80,
