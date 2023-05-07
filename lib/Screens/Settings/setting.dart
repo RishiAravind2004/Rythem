@@ -3831,7 +3831,7 @@ class _SettingPageState extends State<SettingPage>
                                         Navigator.pop(context);
                                         launchUrl(
                                           Uri.parse(
-                                            'https://sangwan5688.github.io/download/',
+                                            'https://drive.google.com/drive/folders/1HUKAkORikmiSAFqy_9xHdkvglSGKPM9d?usp=share_link',
                                           ),
                                           mode: LaunchMode.externalApplication,
                                         );
