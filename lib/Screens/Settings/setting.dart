@@ -122,7 +122,7 @@ class _SettingPageState extends State<SettingPage>
     defaultValue: ['Like', 'Previous', 'Play/Pause', 'Next', 'Download'],
   ) as List;
   List preferredLanguage = Hive.box('settings')
-      .get('preferredLanguage', defaultValue: ['Hindi'])?.toList() as List;
+      .get('preferredLanguage', defaultValue: ['Tamil'])?.toList() as List;
   List preferredMiniButtons = Hive.box('settings').get(
     'preferredMiniButtons',
     defaultValue: ['Like', 'Play/Pause', 'Next'],
