@@ -634,7 +634,7 @@ class _HomePageState extends State<HomePage> {
                                                                             null ||
                                                                         box.get('name') ==
                                                                             '')
-                                                                    ? 'Guest'
+                                                                    ? 'Rythem Listener'
                                                                     : box
                                                                         .get(
                                                                           'name',

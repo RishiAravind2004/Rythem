@@ -32,8 +32,8 @@ class SpotifyApi {
   ];
 
   /// You can signup for spotify developer account and get your own clientID and clientSecret incase you don't want to use these
-  final String clientID = '5b5220220b514e12a5bd8e268cd3b1eb';
-  final String clientSecret = '9993770ec1884db8bfa5ccf689d10ad5';
+  final String clientID = '65af116e70764f1c8c4814a095814845';
+  final String clientSecret = 'bf05d850f1194dc7bcec877b70e98119';
   final String redirectUrl = 'app://rythem/auth';
   final String spotifyApiUrl = 'https://accounts.spotify.com/api';
   final String spotifyApiBaseUrl = 'https://api.spotify.com/v1';
