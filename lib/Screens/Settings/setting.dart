@@ -1,40 +1,40 @@
 /*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
+ *  This file is part of Rythem (https://github.com/RishiAravind2004/Rythem).
  * 
- * BlackHole is free software: you can redistribute it and/or modify
+ * Rythem is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * BlackHole is distributed in the hope that it will be useful,
+ * Rythem is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Rythem.  If not, see <http://www.gnu.org/licenses/>.
  * 
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
 
 import 'dart:io';
 
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/popup.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/textinput_dialog.dart';
-import 'package:blackhole/Helpers/backup_restore.dart';
-import 'package:blackhole/Helpers/config.dart';
-import 'package:blackhole/Helpers/countrycodes.dart';
-import 'package:blackhole/Helpers/github.dart';
-import 'package:blackhole/Helpers/picker.dart';
-import 'package:blackhole/Helpers/update.dart';
-import 'package:blackhole/Screens/Home/saavn.dart' as home_screen;
-import 'package:blackhole/Screens/Settings/player_gradient.dart';
-import 'package:blackhole/Screens/Top Charts/top.dart' as top_screen;
-import 'package:blackhole/Services/ext_storage_provider.dart';
-import 'package:blackhole/main.dart';
+import 'package:rythem/CustomWidgets/copy_clipboard.dart';
+import 'package:rythem/CustomWidgets/gradient_containers.dart';
+import 'package:rythem/CustomWidgets/popup.dart';
+import 'package:rythem/CustomWidgets/snackbar.dart';
+import 'package:rythem/CustomWidgets/textinput_dialog.dart';
+import 'package:rythem/Helpers/backup_restore.dart';
+import 'package:rythem/Helpers/config.dart';
+import 'package:rythem/Helpers/countrycodes.dart';
+import 'package:rythem/Helpers/github.dart';
+import 'package:rythem/Helpers/picker.dart';
+import 'package:rythem/Helpers/update.dart';
+import 'package:rythem/Screens/Home/saavn.dart' as home_screen;
+import 'package:rythem/Screens/Settings/player_gradient.dart';
+import 'package:rythem/Screens/Top Charts/top.dart' as top_screen;
+import 'package:rythem/Services/ext_storage_provider.dart';
+import 'package:rythem/main.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -63,7 +63,7 @@ class _SettingPageState extends State<SettingPage>
       .get('downloadPath', defaultValue: '/storage/emulated/0/Music') as String;
   String autoBackPath = Hive.box('settings').get(
     'autoBackPath',
-    defaultValue: '/storage/emulated/0/BlackHole/Backups',
+    defaultValue: '/storage/emulated/0/Rythem/Backups',
   ) as String;
   final ValueNotifier<bool> includeOrExclude = ValueNotifier<bool>(
     Hive.box('settings').get('includeOrExclude', defaultValue: false) as bool,
@@ -3680,10 +3680,10 @@ class _SettingPageState extends State<SettingPage>
                             onPressed: () async {
                               autoBackPath =
                                   await ExtStorageProvider.getExtStorage(
-                                        dirName: 'BlackHole/Backups',
+                                        dirName: 'Rythem/Backups',
                                         writeAccess: true,
                                       ) ??
-                                      '/storage/emulated/0/BlackHole/Backups';
+                                      '/storage/emulated/0/Rythem/Backups';
                               Hive.box('settings')
                                   .put('autoBackPath', autoBackPath);
                               setState(
@@ -3813,7 +3813,7 @@ class _SettingPageState extends State<SettingPage>
                                         Navigator.pop(context);
                                         launchUrl(
                                           Uri.parse(
-                                            'https://sangwan5688.github.io/download/',
+                                            'https://RishiAravind2004.github.io/download/',
                                           ),
                                           mode: LaunchMode.externalApplication,
                                         );
@@ -3855,7 +3855,7 @@ class _SettingPageState extends State<SettingPage>
                             Share.share(
                               '${AppLocalizations.of(
                                 context,
-                              )!.shareAppText}: https://sangwan5688.github.io/',
+                              )!.shareAppText}: https://RishiAravind2004.github.io/',
                             );
                           },
                           dense: true,
@@ -3900,7 +3900,7 @@ class _SettingPageState extends State<SettingPage>
                           isThreeLine: true,
                           onTap: () {
                             const String upiUrl =
-                                'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=BlackHole';
+                                'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=Rythem';
                             launchUrl(
                               Uri.parse(upiUrl),
                               mode: LaunchMode.externalApplication,
@@ -3985,7 +3985,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dblackholeyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
+                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Drythemyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4047,7 +4047,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://instagram.com/sangwan5688',
+                                                    'https://instagram.com/RishiAravind2004',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4141,7 +4141,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://t.me/blackhole_official',
+                                                    'https://t.me/rythem_official',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,

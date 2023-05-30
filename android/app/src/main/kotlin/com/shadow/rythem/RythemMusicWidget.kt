@@ -12,7 +12,7 @@ import android.widget.RemoteViews
 /**
  * Implementation of App Widget functionality.
  */
-class BlackHoleMusicWidget : AppWidgetProvider() {
+class RythemMusicWidget : AppWidgetProvider() {
     override fun onUpdate(context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray) {
         // There may be multiple widgets active, so update all of them
         for (appWidgetId in appWidgetIds) {
@@ -24,10 +24,10 @@ class BlackHoleMusicWidget : AppWidgetProvider() {
 internal fun updateAppWidget(context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int) {
     val widgetText = context.getString(R.string.appwidget_text)
     // Construct the RemoteViews object
-    val views = RemoteViews(context.packageName, R.layout.black_hole_music_widget)
+    val views = RemoteViews(context.packageName, R.layout.rythem_music_widget)
 
     // val intent = Intent(context, MainActivity::class.java);
-    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("app://blackhole/play"))
+    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("app://rythem/play"))
 
     // val intent = Intent(Intent.ACTION_VIEW)
     // intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)

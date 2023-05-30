@@ -1,15 +1,15 @@
-<img width="125px" src="https://github.com/Sangwan5688/BlackHole/blob/main/assets/icon-white-trans.png" align="center" />
+<img width="125px" src="https://github.com/RishiAravind2004/Rythem/blob/main/assets/icon-white-trans.png" align="center" />
 
-# BlackHole
+# Rythem
 
 Um reprodutor de música incrível para todas as suas necessidades!
 
-[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
-[![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/RishiAravind2004/Rythem) ![Downloads](https://img.shields.io/github/downloads/RishiAravind2004/Rythem/total)
+[![Build](https://github.com/RishiAravind2004/Rythem/actions/workflows/flutter.yml/badge.svg)](https://github.com/RishiAravind2004/Rythem/actions/workflows/flutter.yml)
 
 ### Não esqueça de :star: esse repositório
 
-[![GitHub stars](https://img.shields.io/github/stars/Sangwan5688/BlackHole.svg?style=social&label=Star)](https://github.com//Sangwan5688/BlackHole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/BlackHole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
+[![GitHub stars](https://img.shields.io/github/stars/RishiAravind2004/Rythem.svg?style=social&label=Star)](https://github.com//RishiAravind2004/Rythem) ![GitHub forks](https://img.shields.io/github/forks/RishiAravind2004/Rythem.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/RishiAravind2004.svg?style=social&label=Follow)
 
 ## Download
 
@@ -23,11 +23,11 @@ Um reprodutor de música incrível para todas as suas necessidades!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
      alt="Download from GitHub"
-     height="60">](https://github.com/Sangwan5688/BlackHole/releases)
+     height="60">](https://github.com/RishiAravind2004/Rythem/releases)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/rythem_official)
 
 ## Traduções
 
@@ -80,21 +80,21 @@ e muito mais...
 Veja você mesmo :)
 
 ## Imagens
-<img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
+<img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
 
 ## Licença
 ```
 Copyright © 2021 Ankit Sangwan
 
-BlackHole é um software grátis licenciado pelo GPL v3.0.
+Rythem é um software grátis licenciado pelo GPL v3.0.
 Você pode redistribuir e/ou modificá-lo de acordo com os termos do GNU General Public License como foi publicado pelo
 Free Software Foundation, tanto a versão 3 da Licença, ou (por sua opção) qualquer versão posterior.
 
-BlackHole é distribuído na esperança de que seja útil, mas SEM NENHUMA GARANTIA;
+Rythem é distribuído na esperança de que seja útil, mas SEM NENHUMA GARANTIA;
 sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO FIM.
 Consulte a GNU General Public License para obter mais detalhes.
 ```
-[Ver Licença](https://github.com/Sangwan5688/BlackHole/blob/main/LICENSE)
+[Ver Licença](https://github.com/RishiAravind2004/Rythem/blob/main/LICENSE)
 
 ## Construa a partir do código-fonte
 
@@ -102,7 +102,7 @@ Consulte a GNU General Public License para obter mais detalhes.
 2. Obtenha o código-fonte mais recente do branch master.
 
 ```
-git clone https://github.com/Sangwan5688/BlackHole.git
+git clone https://github.com/RishiAravind2004/Rythem.git
 ```
 
 3. Execute o aplicativo com Android Studio ou VS Code. Ou através da linha de comando:
@@ -114,15 +114,15 @@ flutter run
 
 ## Contribuição
 
-Contribuições são bem vindas. Por favor leia nosso [diretrizes de contribuição](https://github.com/Sangwan5688/BlackHole/blob/main/CONTRIBUTING.md) antes de contribuir.
+Contribuições são bem vindas. Por favor leia nosso [diretrizes de contribuição](https://github.com/RishiAravind2004/Rythem/blob/main/CONTRIBUTING.md) antes de contribuir.
 
 ## Enfrentando algum problema?
 
-Olhe alguns dos [problemas](https://github.com/Sangwan5688/BlackHole/wiki/Common-Issues) e veja se pode lhe ajudar. Se seu problema não está lá, sinta-se livre para abrir um :)
+Olhe alguns dos [problemas](https://github.com/RishiAravind2004/Rythem/wiki/Common-Issues) e veja se pode lhe ajudar. Se seu problema não está lá, sinta-se livre para abrir um :)
 
 ## Quer testar as versões beta? Preciso de ajuda??
 
-Você pode entrar no nosso [canal](https://t.me/blackhole_official) ou [grupo](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) do Telegram se tiver alguma dúvida ou precisar de ajuda com algo, bem como para obter atualizações beta do projeto.
+Você pode entrar no nosso [canal](https://t.me/rythem_official) ou [grupo](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) do Telegram se tiver alguma dúvida ou precisar de ajuda com algo, bem como para obter atualizações beta do projeto.
 
 ## Gostou do meu trabalho?
 
@@ -130,4 +130,4 @@ Você pode entrar no nosso [canal](https://t.me/blackhole_official) ou [grupo](h
 
 ## O que há de novo
 
-Para ler o changelog completo, visite a [nossa wiki](https://github.com/Sangwan5688/BlackHole/wiki/Changelog)
+Para ler o changelog completo, visite a [nossa wiki](https://github.com/RishiAravind2004/Rythem/wiki/Changelog)

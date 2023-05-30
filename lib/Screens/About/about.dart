@@ -1,24 +1,24 @@
 /*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
+ *  This file is part of Rythem (https://github.com/RishiAravind2004/Rythem).
  * 
- * BlackHole is free software: you can redistribute it and/or modify
+ * Rythem is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * BlackHole is distributed in the hope that it will be useful,
+ * Rythem is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Rythem.  If not, see <http://www.gnu.org/licenses/>.
  * 
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
 
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
+import 'package:rythem/CustomWidgets/copy_clipboard.dart';
+import 'package:rythem/CustomWidgets/gradient_containers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -126,7 +126,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         onPressed: () {
                           launchUrl(
                             Uri.parse(
-                              'https://github.com/Sangwan5688/BlackHole',
+                              'https://github.com/RishiAravind2004/Rythem',
                             ),
                             mode: LaunchMode.externalApplication,
                           );
@@ -186,7 +186,7 @@ class _AboutScreenState extends State<AboutScreen> {
                       ),
                       onPressed: () {
                         const String upiUrl =
-                            'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=BlackHole&mc=5732&aid=uGICAgIDn98OpSw&tr=BCR2DN6T37O6DB3Q';
+                            'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=Rythem&mc=5732&aid=uGICAgIDn98OpSw&tr=BCR2DN6T37O6DB3Q';
                         launchUrl(
                           Uri.parse(upiUrl),
                           mode: LaunchMode.externalApplication,

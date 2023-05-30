@@ -1,16 +1,16 @@
 ![Repo Banner](https://user-images.githubusercontent.com/87353286/144381080-faf8e557-7909-43a1-a8e2-208936e5a8f8.png)
 
-# BlackHole
+# Rythem
 
 Sebuah Pemutar Musik Sumber Terbuka untuk semua kebutuhanmu!
 
-[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
-[![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
-[![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/RishiAravind2004/Rythem) ![Downloads](https://img.shields.io/github/downloads/RishiAravind2004/Rythem/total)
+[![Build](https://github.com/RishiAravind2004/Rythem/actions/workflows/flutter.yml/badge.svg)](https://github.com/RishiAravind2004/Rythem/actions/workflows/flutter.yml)
+[![Translation-Status](https://hosted.weblate.org/widgets/rythem/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/rythem/)
 
 ### Jangan lupa :star: repo ini
 
-[![GitHub stars](https://img.shields.io/github/stars/Sangwan5688/BlackHole.svg?style=social&label=Star)](https://github.com//Sangwan5688/BlackHole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/BlackHole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
+[![GitHub stars](https://img.shields.io/github/stars/RishiAravind2004/Rythem.svg?style=social&label=Star)](https://github.com//RishiAravind2004/Rythem) ![GitHub forks](https://img.shields.io/github/forks/RishiAravind2004/Rythem.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/RishiAravind2004.svg?style=social&label=Follow)
 
 ## Unduh
 
@@ -24,11 +24,11 @@ Sebuah Pemutar Musik Sumber Terbuka untuk semua kebutuhanmu!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
      alt="Unduh dari GitHub"
-     height="60">](https://github.com/Sangwan5688/BlackHole/releases)
+     height="60">](https://github.com/RishiAravind2004/Rythem/releases)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Gabung saluran telegram"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/rythem_official)
 
 ## Terjemahan
 
@@ -39,7 +39,7 @@ Sebuah Pemutar Musik Sumber Terbuka untuk semua kebutuhanmu!
 - [Japanese :jp:](/README.JA.md)
 - [Belarusian :belarus:](/README.BE.md)
 
-[Terjemakan Aplikasi di Weblate](https://hosted.weblate.org/projects/blackhole/translations/)
+[Terjemakan Aplikasi di Weblate](https://hosted.weblate.org/projects/rythem/translations/)
 
 ## Fitur
 
@@ -82,14 +82,14 @@ Periksa sendiri :)
 
 ## Tangkapan Layar
 
-<img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
+<img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/RishiAravind2004/Rythem/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
 
 ## Lisensi
 
 ```
 Copyright © 2021 Ankit Sangwan
 
-BlackHole is a free software licensed under GPL v3.0
+Rythem is a free software licensed under GPL v3.0
 It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
@@ -111,7 +111,7 @@ how to obtain the original software, should clearly STATE ALL CHANGES made and s
 Use of this software under any "non-free" license is NOT permitted.
 ```
 
-Lihat [GNU General Public License](https://github.com/Sangwan5688/BlackHole/blob/main/LICENSE) untuk lebih detail.
+Lihat [GNU General Public License](https://github.com/RishiAravind2004/Rythem/blob/main/LICENSE) untuk lebih detail.
 
 ## Buat dari sumber
 
@@ -119,7 +119,7 @@ Lihat [GNU General Public License](https://github.com/Sangwan5688/BlackHole/blob
 2. Ambil kode program dari cabang master.
 
 ```
-git clone https://github.com/Sangwan5688/BlackHole.git
+git clone https://github.com/RishiAravind2004/Rythem.git
 ```
 
 3. Jalankan aplikasi dengan Android Studio atau VS Code. Atau dengan baris perintah:
@@ -131,15 +131,15 @@ flutter run
 
 ## Kontribusi
 
-Kontribusi dipersilakan. Tolong baca [pedoman kontribusi](https://github.com/Sangwan5688/BlackHole/blob/main/CONTRIBUTING.md) kami sebelum berkontribusi.
+Kontribusi dipersilakan. Tolong baca [pedoman kontribusi](https://github.com/RishiAravind2004/Rythem/blob/main/CONTRIBUTING.md) kami sebelum berkontribusi.
 
 ## Mengalami masalah?
 
-Lihat pada beberapa [masalah umum](https://github.com/Sangwan5688/BlackHole/wiki/Common-Issues) yang mungkin kamu alami. Jika masalahmu tidak ada disana, silakan untuk membuka Issue :)
+Lihat pada beberapa [masalah umum](https://github.com/RishiAravind2004/Rythem/wiki/Common-Issues) yang mungkin kamu alami. Jika masalahmu tidak ada disana, silakan untuk membuka Issue :)
 
 ## Ingin mencoba versi Beta? Butuh bantuan??
 
-Kamu dapat bergabung ke [Saluran Telegram](https://t.me/blackhole_official) atau [Grup Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), Jika kamu memiliki pertanyaan, atau membutuhkan bantuan dengan sesuatu serta untuk mendapatkan pembaruan proyek beta.
+Kamu dapat bergabung ke [Saluran Telegram](https://t.me/rythem_official) atau [Grup Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), Jika kamu memiliki pertanyaan, atau membutuhkan bantuan dengan sesuatu serta untuk mendapatkan pembaruan proyek beta.
 
 ## Menyukai hasil kerja saya?
 
@@ -147,4 +147,4 @@ Kamu dapat bergabung ke [Saluran Telegram](https://t.me/blackhole_official) atau
 
 ## Apa Yang Baru
 
-Untuk membaca seluruh daftar perubahan kunjungi [halaman wiki](https://github.com/Sangwan5688/BlackHole/wiki/Changelog)
+Untuk membaca seluruh daftar perubahan kunjungi [halaman wiki](https://github.com/RishiAravind2004/Rythem/wiki/Changelog)

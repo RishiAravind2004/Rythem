@@ -43,8 +43,8 @@ jobs:
           echo storePassword=${{ secrets.STORE_PASSWORD }} >> ${{env.PROPERTIES_PATH}}
           echo keyPassword=${{ secrets.KEY_PASSWORD }} >> ${{env.PROPERTIES_PATH}}
           echo keyAlias=${{ secrets.KEY_ALIAS }} >> ${{env.PROPERTIES_PATH}}
-          echo storeFile=/home/runner/work/BlackHole/BlackHole/android/app/keystore.jks >> ${{env.PROPERTIES_PATH}}
-          echo ${{ secrets.KEYSTORE }} | base64 --decode > /home/runner/work/BlackHole/BlackHole/android/app/keystore.jks
+          echo storeFile=/home/runner/work/Rythem/Rythem/android/app/keystore.jks >> ${{env.PROPERTIES_PATH}}
+          echo ${{ secrets.KEYSTORE }} | base64 --decode > /home/runner/work/Rythem/Rythem/android/app/keystore.jks
 
       # Get flutter dependencies.
       - run: flutter pub get
@@ -93,6 +93,6 @@ jobs:
           format: markdown
           disable_web_page_preview: true
           message: |
-            Build Failed!! @Sangwan5688
+            Build Failed!! @RishiAravind2004
             Commit was pushed to [${{ github.event.repository.name }}](${{ github.event.repository.html_url }}) by [${{ github.event.head_commit.author.name }}](${{ github.event.head_commit.author.html_url }}).
             Commit message: ${{ github.event.head_commit.message }}

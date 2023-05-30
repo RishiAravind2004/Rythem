@@ -1,18 +1,18 @@
 /*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
+ *  This file is part of Rythem (https://github.com/RishiAravind2004/Rythem).
  * 
- * BlackHole is free software: you can redistribute it and/or modify
+ * Rythem is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * BlackHole is distributed in the hope that it will be useful,
+ * Rythem is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Rythem.  If not, see <http://www.gnu.org/licenses/>.
  * 
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
@@ -23,24 +23,24 @@ import 'dart:math';
 import 'dart:ui' as ui;
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/CustomWidgets/add_playlist.dart';
-import 'package:blackhole/CustomWidgets/animated_text.dart';
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/download_button.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/equalizer.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/like_button.dart';
-import 'package:blackhole/CustomWidgets/popup.dart';
-import 'package:blackhole/CustomWidgets/seek_bar.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/textinput_dialog.dart';
-import 'package:blackhole/Helpers/config.dart';
-import 'package:blackhole/Helpers/dominant_color.dart';
-import 'package:blackhole/Helpers/lyrics.dart';
-import 'package:blackhole/Helpers/mediaitem_converter.dart';
-import 'package:blackhole/Screens/Common/song_list.dart';
-import 'package:blackhole/Screens/Search/albums.dart';
+import 'package:rythem/CustomWidgets/add_playlist.dart';
+import 'package:rythem/CustomWidgets/animated_text.dart';
+import 'package:rythem/CustomWidgets/copy_clipboard.dart';
+import 'package:rythem/CustomWidgets/download_button.dart';
+import 'package:rythem/CustomWidgets/empty_screen.dart';
+import 'package:rythem/CustomWidgets/equalizer.dart';
+import 'package:rythem/CustomWidgets/gradient_containers.dart';
+import 'package:rythem/CustomWidgets/like_button.dart';
+import 'package:rythem/CustomWidgets/popup.dart';
+import 'package:rythem/CustomWidgets/seek_bar.dart';
+import 'package:rythem/CustomWidgets/snackbar.dart';
+import 'package:rythem/CustomWidgets/textinput_dialog.dart';
+import 'package:rythem/Helpers/config.dart';
+import 'package:rythem/Helpers/dominant_color.dart';
+import 'package:rythem/Helpers/lyrics.dart';
+import 'package:rythem/Helpers/mediaitem_converter.dart';
+import 'package:rythem/Screens/Common/song_list.dart';
+import 'package:rythem/Screens/Search/albums.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/cupertino.dart';

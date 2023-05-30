@@ -22,7 +22,7 @@
             android:resource="@xml/automotive_app_desc" />
         
         <receiver
-            android:name=".BlackHoleMusicWidget"
+            android:name=".RythemMusicWidget"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -30,7 +30,7 @@
 
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/black_hole_music_widget_info" />
+                android:resource="@xml/rythem_music_widget_info" />
         </receiver>
 
         <activity
@@ -83,7 +83,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="blackhole"
+                    android:host="rythem"
                     android:pathPrefix="/auth"
                     android:scheme="app" />
             </intent-filter>
@@ -94,7 +94,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="blackhole"
+                    android:host="rythem"
                     android:pathPrefix="/play"
                     android:scheme="app" />
             </intent-filter>

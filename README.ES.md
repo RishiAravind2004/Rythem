@@ -1,15 +1,15 @@
-<img width="125px" src="https://github.com/Sangwan5688/BlackHole/blob/main/assets/icon-white-trans.png" align="center" />
+<img width="125px" src="https://github.com/RishiAravind2004/Rythem/blob/main/assets/icon-white-trans.png" align="center" />
 
-# BlackHole
+# Rythem
 
 Un increible reproductor de música basado en Flutter
 
-[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
-[![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/RishiAravind2004/Rythem) ![Downloads](https://img.shields.io/github/downloads/RishiAravind2004/Rythem/total)
+[![Build](https://github.com/RishiAravind2004/Rythem/actions/workflows/flutter.yml/badge.svg)](https://github.com/RishiAravind2004/Rythem/actions/workflows/flutter.yml)
 
 ### No olvide dejar una estrella :star: en el repo.
 
-[![GitHub stars](https://img.shields.io/github/stars/Sangwan5688/BlackHole.svg?style=social&label=Star)](https://github.com//Sangwan5688/BlackHole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/BlackHole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
+[![GitHub stars](https://img.shields.io/github/stars/RishiAravind2004/Rythem.svg?style=social&label=Star)](https://github.com//RishiAravind2004/Rythem) ![GitHub forks](https://img.shields.io/github/forks/RishiAravind2004/Rythem.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/RishiAravind2004.svg?style=social&label=Follow)
 
 ## Descargar
 
@@ -23,11 +23,11 @@ Un increible reproductor de música basado en Flutter
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
      alt="Download from GitHub"
-     height="60">](https://github.com/Sangwan5688/BlackHole/releases)
+     height="60">](https://github.com/RishiAravind2004/Rythem/releases)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/rythem_official)
 
 ## Traducciones
 
@@ -70,11 +70,11 @@ Y hay más por venir...
 
 <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" loading="lazy" width="32%"> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" loading="lazy" width="32%"> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" loading="lazy" width="32%"> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" loading="lazy" width="32%"> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png" loading="lazy" width="32%"> <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" loading="lazy" width="32%">
 
-## [Descargar la última versión](https://github.com/Sangwan5688/BlackHole/releases)
+## [Descargar la última versión](https://github.com/RishiAravind2004/Rythem/releases)
 
 ## Licencia
 
-Blackhole está licenciado bajo la licencia libre [GNU GPL v3.0](https://github.com/Sangwan5688/BlackHole/blob/main/LICENSE). Eso significa que puede redistribuir y/o modificar el proyecto bajo los terminos descritos en la Licencia Pública General de GNU v3.0 tal cual lo publica la Free Software Foundation.<br>
+Blackhole está licenciado bajo la licencia libre [GNU GPL v3.0](https://github.com/RishiAravind2004/Rythem/blob/main/LICENSE). Eso significa que puede redistribuir y/o modificar el proyecto bajo los terminos descritos en la Licencia Pública General de GNU v3.0 tal cual lo publica la Free Software Foundation.<br>
 
 Copyright © 2021 Ankit Sangwan
 
@@ -84,7 +84,7 @@ Copyright © 2021 Ankit Sangwan
 2. Obtenga el código más reciente de la rama "Master"
 
 ```
-git clone https://github.com/Sangwan5688/BlackHole.git
+git clone https://github.com/RishiAravind2004/Rythem.git
 ```
 
 3. Ejecute la aplicación con Android Studio, Visual Studio o la terminal.
@@ -94,11 +94,11 @@ flutter pub get
 flutter run
 ```
 
-4. (Opcional) Puede configurar su propia base de datos para la aplicación o utilizar la predeterminada. Para configurar su propia base de datos, siga [éstas instrucciones](https://github.com/Sangwan5688/BlackHole/wiki/Set-up-your-own-Firebase-Database).
+4. (Opcional) Puede configurar su propia base de datos para la aplicación o utilizar la predeterminada. Para configurar su propia base de datos, siga [éstas instrucciones](https://github.com/RishiAravind2004/Rythem/wiki/Set-up-your-own-Firebase-Database).
 
 ## Contribuciones
 
-Las contribuciones son bienveenidas, Por favor lea los [lineamientos de contribución](https://github.com/Sangwan5688/BlackHole/blob/main/CONTRIBUTING.md) antes de contribuir.
+Las contribuciones son bienveenidas, Por favor lea los [lineamientos de contribución](https://github.com/RishiAravind2004/Rythem/blob/main/CONTRIBUTING.md) antes de contribuir.
 
 ## ¿Necesita ayuda?
 
@@ -110,4 +110,4 @@ Puedes unirte a nuestro [Grupo de Telegram](https://t.me/joinchat/fHDC1AWnOhw0Zm
 
 ## ¿Qué hay de nuevo?
 
-Para leer el historial de cambios completo, visite [la wiki](https://github.com/Sangwan5688/BlackHole/wiki/Changelog)
+Para leer el historial de cambios completo, visite [la wiki](https://github.com/RishiAravind2004/Rythem/wiki/Changelog)

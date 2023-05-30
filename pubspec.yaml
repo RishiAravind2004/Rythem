@@ -1,4 +1,4 @@
-name: blackhole
+name: rythem
 description: An Open Source Music Player App.
 
 # Prevent accidental publishing to pub.dev.
@@ -15,7 +15,7 @@ dependencies:
   audio_service: ^0.18.9
   audiotagger:
     git:
-      url: https://github.com/Sangwan5688/Audiotagger
+      url: https://github.com/RishiAravind2004/Audiotagger
       ref: 90f2db5
   # bitsdojo_window: ^0.1.1+1 #For Desktops
   cached_network_image: ^3.2.3
@@ -74,7 +74,7 @@ flutter:
     - assets/
 
 msix_config:
-  display_name: BlackHole
+  display_name: Rythem
   publisher_display_name: Ankit Sangwan
   identity_name: app.rythem.music
   icons_background_color: transparent

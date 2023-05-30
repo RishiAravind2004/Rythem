@@ -87,7 +87,7 @@ packages:
       path: "."
       ref: "90f2db5"
       resolved-ref: "90f2db54680c25d11e279466044ba13fd701bad7"
-      url: "https://github.com/Sangwan5688/Audiotagger"
+      url: "https://github.com/RishiAravind2004/Audiotagger"
     source: git
     version: "2.2.1"
   boolean_selector:
