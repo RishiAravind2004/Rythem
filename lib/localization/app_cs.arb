@@ -23,7 +23,7 @@
   "@album": {},
   "alphabetical": "Abecední",
   "@alphabetical": {},
-  "appTitle": "Rythem",
+  "appTitle": "BlackHole",
   "@appTitle": {},
   "artist": "Umělec",
   "@artist": {},
@@ -183,7 +183,7 @@
   "@countryQue": {},
   "clearCacheSub": "Vymaže podrobnosti z mezipaměti, což zahrnuje domovskou stránku, žebříčky nejlepších skladeb na Spotify a data poslední relace. Aplikace je obvykle automaticky vymaže, když se data stanou příliš velkými\n",
   "@clearCacheSub": {},
-  "checkUpdateSub": "Pokud jste si stáhli Rythem z jakéhokoliv repozitáře aplikací jako je F-Droid, IzzyOnDroid atd., který poskytuje možnost aktualizace, nechte toto VYPNUTÉ. Pokud jste si ale Rythem stáhli z GitHubu nebo z jakéhokoliv jiného zdroje, který neumožňuje automatické aktualizace, nechte toto ZAPNUTÉ, abyste dostávali upozornění o aktualizacích\n",
+  "checkUpdateSub": "Pokud jste si stáhli BlackHole z jakéhokoliv repozitáře aplikací jako je F-Droid, IzzyOnDroid atd., který poskytuje možnost aktualizace, nechte toto VYPNUTÉ. Pokud jste si ale BlackHole stáhli z GitHubu nebo z jakéhokoliv jiného zdroje, který neumožňuje automatické aktualizace, nechte toto ZAPNUTÉ, abyste dostávali upozornění o aktualizacích\n",
   "@checkUpdateSub": {},
   "contactUsSub": "Ceníme si zpětné vazby!",
   "@contactUsSub": {},
@@ -285,7 +285,7 @@
   "@loadLast": {},
   "loadLastSub": "Automaticky načíst poslední relaci při spuštění aplikace",
   "@loadLastSub": {},
-  "madeBy": "Made with ♥ by Potter's Devlopment (RishiAravind)",
+  "madeBy": "S ♥ vytvořil Ankit Sangwan",
   "@madeBy": {},
   "minAudioAlert": "Minimální délka zvuku (ve vteřinách)",
   "@minAudioAlert": {},
@@ -700,5 +700,7 @@
   "blacklistHomeSections": "Zakázat tuto sekci",
   "@blacklistHomeSections": {},
   "blacklistHomeSectionsConfirm": "Opravdu chcete tuto sekci zařadit na černou listinu? Po zařazení na černou listinu se nebude zobrazovat na domovské obrazovce",
-  "@blacklistHomeSectionsConfirm": {}
+  "@blacklistHomeSectionsConfirm": {},
+  "folders": "Složky",
+  "@folders": {}
 }

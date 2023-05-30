@@ -503,7 +503,7 @@
   "@liveSearch": {},
   "local": "உள்ளூர்",
   "@local": {},
-  "madeBy": "Made with ♥ by Potter's Devlopment (RishiAravind)",
+  "madeBy": "♥ உடன் Ankit Sangwanஆல் ஆக்கப்பட்டது",
   "@madeBy": {},
   "minAudioAlert": "குறைந்தபட்ச ஒலி நீளம் (நொடியில்)",
   "@minAudioAlert": {},
@@ -533,9 +533,9 @@
   "@bgGradSub": {},
   "aboard": "கலத்திற்கு",
   "@aboard": {},
-  "appTitle": "Rythem",
+  "appTitle": "BlackHole",
   "@appTitle": {},
-  "checkUpdateSub": "புதுபிப்பு தெரிவுகள் தரும் 'எஃப்-ட்ராய்டு', 'IzzyOnDroid' போன்றவையிலிருந்து Rythemஐ பதிவிறக்கியிருந்தால், இதை அணைத்து வை. 'GitHub' அல்லது பிற தானியக்க புதுப்பிப்புகள் வழங்கா மூலத்திலிருந்து பதிவிறக்கியிருந்தால் இதை இயக்கி வை, எனவே புதுப்பிப்பு விழிப்புகளைப் பெறலாம்\n",
+  "checkUpdateSub": "புதுபிப்பு தெரிவுகள் தரும் 'எஃப்-ட்ராய்டு', 'IzzyOnDroid' போன்றவையிலிருந்து BlackHoleஐ பதிவிறக்கியிருந்தால், இதை அணைத்து வை. 'GitHub' அல்லது பிற தானியக்க புதுப்பிப்புகள் வழங்கா மூலத்திலிருந்து பதிவிறக்கியிருந்தால் இதை இயக்கி வை, எனவே புதுப்பிப்பு விழிப்புகளைப் பெறலாம்\n",
   "@checkUpdateSub": {},
   "clearCacheSub": "முகப்புப்பக்கம், Spotify உச்ச தரவரிசை, வலையொளி மற்றும் கடைசி அமர்வு தரவு உள்ளிட்ட பதுக்கிய விவரங்களை அழிக்கும். வழக்கமாக தரவு பெரிதாகும்போது செயலி அவற்றைத் தானாக துடைக்கும்.\n",
   "@clearCacheSub": {},
@@ -698,5 +698,11 @@
   "mostPlayedSong": "அதிகம் இயக்கிய பாடல்",
   "@mostPlayedSong": {},
   "compactNotificationButtonsSub": "இறுகிய அறிவிப்புக் காட்சியில் காட்ட வேண்டிய பொத்தான்கள்",
-  "@compactNotificationButtonsSub": {}
+  "@compactNotificationButtonsSub": {},
+  "blacklistHomeSections": "இப்பிரிவை கரும்பட்டியலிடு",
+  "@blacklistHomeSections": {},
+  "blacklistHomeSectionsConfirm": "இப்பிரிவை கரும்பட்டியலிட உறுதியா? ஆன பின், இது முகப்புத்திரையில் காட்டப்படாது",
+  "@blacklistHomeSectionsConfirm": {},
+  "folders": "அடைவுகள்",
+  "@folders": {}
 }

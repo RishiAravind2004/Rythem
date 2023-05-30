@@ -29,6 +29,7 @@ import 'package:blackhole/Helpers/config.dart';
 import 'package:blackhole/Helpers/countrycodes.dart';
 import 'package:blackhole/Helpers/github.dart';
 import 'package:blackhole/Helpers/picker.dart';
+import 'package:blackhole/Helpers/update.dart';
 import 'package:blackhole/Screens/Home/saavn.dart' as home_screen;
 import 'package:blackhole/Screens/Settings/player_gradient.dart';
 import 'package:blackhole/Screens/Top Charts/top.dart' as top_screen;
@@ -62,7 +63,7 @@ class _SettingPageState extends State<SettingPage>
       .get('downloadPath', defaultValue: '/storage/emulated/0/Music') as String;
   String autoBackPath = Hive.box('settings').get(
     'autoBackPath',
-    defaultValue: '/storage/emulated/0/Rythem/Backups',
+    defaultValue: '/storage/emulated/0/BlackHole/Backups',
   ) as String;
   final ValueNotifier<bool> includeOrExclude = ValueNotifier<bool>(
     Hive.box('settings').get('includeOrExclude', defaultValue: false) as bool,
@@ -133,7 +134,7 @@ class _SettingPageState extends State<SettingPage>
   final ValueNotifier<List> sectionsToShow = ValueNotifier<List>(
     Hive.box('settings').get(
       'sectionsToShow',
-      defaultValue: ['Home', 'YouTube', 'Library', 'Settings'],
+      defaultValue: ['Home', 'Top Charts', 'YouTube', 'Library'],
     ) as List,
   );
 
@@ -152,25 +153,6 @@ class _SettingPageState extends State<SettingPage>
     setState(
       () {},
     );
-  }
-
-  bool compareVersion(String latestVersion, String currentVersion) {
-    bool update = false;
-    final List<String> latestList = latestVersion.split('.');
-    final List<String> currentList = currentVersion.split('.');
-
-    for (int i = 0; i < latestList.length; i++) {
-      try {
-        if (int.parse(latestList[i]) > int.parse(currentList[i])) {
-          update = true;
-          break;
-        }
-      } catch (e) {
-        break;
-      }
-    }
-
-    return update;
   }
 
   @override
@@ -264,7 +246,7 @@ class _SettingPageState extends State<SettingPage>
                           ),
                           keyName: 'darkMode',
                           defaultValue: true,
-                          onChanged: (bool val, Box box) {
+                          onChanged: ({required bool val, required Box box}) {
                             box.put(
                               'useSystemTheme',
                               false,
@@ -285,7 +267,7 @@ class _SettingPageState extends State<SettingPage>
                           ),
                           keyName: 'useSystemTheme',
                           defaultValue: true,
-                          onChanged: (bool val, Box box) {
+                          onChanged: ({required bool val, required Box box}) {
                             currentTheme.switchTheme(useSystemTheme: val);
                             switchToCustomTheme();
                           },
@@ -1864,7 +1846,7 @@ class _SettingPageState extends State<SettingPage>
                           ),
                           keyName: 'showPlaylist',
                           defaultValue: true,
-                          onChanged: (val, box) {
+                          onChanged: ({required bool val, required Box box}) {
                             widget.callback!();
                           },
                         ),
@@ -1884,7 +1866,7 @@ class _SettingPageState extends State<SettingPage>
                           ),
                           keyName: 'showRecent',
                           defaultValue: true,
-                          onChanged: (val, box) {
+                          onChanged: ({required bool val, required Box box}) {
                             widget.callback!();
                           },
                         ),
@@ -1967,7 +1949,7 @@ class _SettingPageState extends State<SettingPage>
                                 .enableGestureSub,
                           ),
                           keyName: 'enableGesture',
-                          defaultValue: false,
+                          defaultValue: true,
                           isThreeLine: true,
                         ),
                       ],
@@ -3177,7 +3159,7 @@ class _SettingPageState extends State<SettingPage>
                           keyName: 'useProxy',
                           defaultValue: false,
                           isThreeLine: true,
-                          onChanged: (bool val, Box box) {
+                          onChanged: ({required bool val, required Box box}) {
                             useProxy = val;
                             setState(
                               () {},
@@ -3698,10 +3680,10 @@ class _SettingPageState extends State<SettingPage>
                             onPressed: () async {
                               autoBackPath =
                                   await ExtStorageProvider.getExtStorage(
-                                        dirName: 'Rythem/Backups',
+                                        dirName: 'BlackHole/Backups',
                                         writeAccess: true,
                                       ) ??
-                                      '/storage/emulated/0/Rythem/Backups';
+                                      '/storage/emulated/0/BlackHole/Backups';
                               Hive.box('settings')
                                   .put('autoBackPath', autoBackPath);
                               setState(
@@ -3831,7 +3813,7 @@ class _SettingPageState extends State<SettingPage>
                                         Navigator.pop(context);
                                         launchUrl(
                                           Uri.parse(
-                                            'https://drive.google.com/drive/folders/1HUKAkORikmiSAFqy_9xHdkvglSGKPM9d?usp=share_link',
+                                            'https://sangwan5688.github.io/download/',
                                           ),
                                           mode: LaunchMode.externalApplication,
                                         );
@@ -3873,7 +3855,7 @@ class _SettingPageState extends State<SettingPage>
                             Share.share(
                               '${AppLocalizations.of(
                                 context,
-                              )!.shareAppText}: https://drive.google.com/drive/folders/1HUKAkORikmiSAFqy_9xHdkvglSGKPM9d?usp=share_link',
+                              )!.shareAppText}: https://sangwan5688.github.io/',
                             );
                           },
                           dense: true,
@@ -3895,7 +3877,7 @@ class _SettingPageState extends State<SettingPage>
                           onTap: () {
                             launchUrl(
                               Uri.parse(
-                                '',
+                                'https://www.buymeacoffee.com/ankitsangwan',
                               ),
                               mode: LaunchMode.externalApplication,
                             );
@@ -3918,7 +3900,7 @@ class _SettingPageState extends State<SettingPage>
                           isThreeLine: true,
                           onTap: () {
                             const String upiUrl =
-                                '';
+                                'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=BlackHole';
                             launchUrl(
                               Uri.parse(upiUrl),
                               mode: LaunchMode.externalApplication,
@@ -3927,7 +3909,7 @@ class _SettingPageState extends State<SettingPage>
                           onLongPress: () {
                             copyToClipboard(
                               context: context,
-                              text: '',
+                              text: 'ankit.sangwan.5688@oksbi',
                               displayText: AppLocalizations.of(
                                 context,
                               )!
@@ -3944,7 +3926,7 @@ class _SettingPageState extends State<SettingPage>
                             onPressed: () {
                               copyToClipboard(
                                 context: context,
-                                text: '',
+                                text: 'ankit.sangwan.5688@oksbi',
                                 displayText: AppLocalizations.of(
                                   context,
                                 )!
@@ -4003,7 +3985,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Drishiaravind2004%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
+                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dblackholeyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4023,6 +4005,37 @@ class _SettingPageState extends State<SettingPage>
                                           children: [
                                             IconButton(
                                               icon: const Icon(
+                                                MdiIcons.telegram,
+                                              ),
+                                              iconSize: 40,
+                                              tooltip: AppLocalizations.of(
+                                                context,
+                                              )!
+                                                  .tg,
+                                              onPressed: () {
+                                                Navigator.pop(context);
+                                                launchUrl(
+                                                  Uri.parse(
+                                                    'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
+                                                  ),
+                                                  mode: LaunchMode
+                                                      .externalApplication,
+                                                );
+                                              },
+                                            ),
+                                            Text(
+                                              AppLocalizations.of(
+                                                context,
+                                              )!
+                                                  .tg,
+                                            ),
+                                          ],
+                                        ),
+                                        Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
+                                            IconButton(
+                                              icon: const Icon(
                                                 MdiIcons.instagram,
                                               ),
                                               iconSize: 40,
@@ -4034,7 +4047,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://instagram.com/mr_p.otter',
+                                                    'https://instagram.com/sangwan5688',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4056,6 +4069,101 @@ class _SettingPageState extends State<SettingPage>
                               },
                             );
                           },
+                        ),
+                        ListTile(
+                          title: Text(
+                            AppLocalizations.of(
+                              context,
+                            )!
+                                .joinTg,
+                          ),
+                          subtitle: Text(
+                            AppLocalizations.of(
+                              context,
+                            )!
+                                .joinTgSub,
+                          ),
+                          onTap: () {
+                            showModalBottomSheet(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return SizedBox(
+                                  height: 100,
+                                  child: GradientContainer(
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceEvenly,
+                                      children: [
+                                        Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
+                                            IconButton(
+                                              icon: const Icon(
+                                                MdiIcons.telegram,
+                                              ),
+                                              iconSize: 40,
+                                              tooltip: AppLocalizations.of(
+                                                context,
+                                              )!
+                                                  .tgGp,
+                                              onPressed: () {
+                                                Navigator.pop(context);
+                                                launchUrl(
+                                                  Uri.parse(
+                                                    'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
+                                                  ),
+                                                  mode: LaunchMode
+                                                      .externalApplication,
+                                                );
+                                              },
+                                            ),
+                                            Text(
+                                              AppLocalizations.of(
+                                                context,
+                                              )!
+                                                  .tgGp,
+                                            ),
+                                          ],
+                                        ),
+                                        Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
+                                            IconButton(
+                                              icon: const Icon(
+                                                MdiIcons.telegram,
+                                              ),
+                                              iconSize: 40,
+                                              tooltip: AppLocalizations.of(
+                                                context,
+                                              )!
+                                                  .tgCh,
+                                              onPressed: () {
+                                                Navigator.pop(context);
+                                                launchUrl(
+                                                  Uri.parse(
+                                                    'https://t.me/blackhole_official',
+                                                  ),
+                                                  mode: LaunchMode
+                                                      .externalApplication,
+                                                );
+                                              },
+                                            ),
+                                            Text(
+                                              AppLocalizations.of(
+                                                context,
+                                              )!
+                                                  .tgCh,
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              },
+                            );
+                          },
+                          dense: true,
                         ),
                         ListTile(
                           title: Text(
@@ -4127,7 +4235,7 @@ class BoxSwitchTile extends StatelessWidget {
   final String keyName;
   final bool defaultValue;
   final bool? isThreeLine;
-  final Function(bool, Box box)? onChanged;
+  final Function({required bool val, required Box box})? onChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -4144,7 +4252,7 @@ class BoxSwitchTile extends StatelessWidget {
               defaultValue,
           onChanged: (val) {
             box.put(keyName, val);
-            onChanged?.call(val, box);
+            onChanged?.call(val: val, box: box);
           },
         );
       },

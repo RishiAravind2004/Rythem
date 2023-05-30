@@ -64,14 +64,14 @@ class _HomePageState extends State<HomePage> {
       Hive.box('settings').get('autoBackup', defaultValue: false) as bool;
   List sectionsToShow = Hive.box('settings').get(
     'sectionsToShow',
-    defaultValue: ['Home', 'YouTube', 'Library', 'Settings'],
+    defaultValue: ['Home', 'Top Charts', 'YouTube', 'Library'],
   ) as List;
   DateTime? backButtonPressTime;
 
   void callback() {
     sectionsToShow = Hive.box('settings').get(
       'sectionsToShow',
-      defaultValue: ['Home', 'YouTube', 'Library', 'Settings'],
+      defaultValue: ['Home', 'Top Charts', 'YouTube', 'Library'],
     ) as List;
     setState(() {});
   }

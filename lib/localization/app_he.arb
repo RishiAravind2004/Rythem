@@ -35,7 +35,7 @@
   "@alreadyExists": {},
   "alreadyInQueue": "כבר בתור",
   "@alreadyInQueue": {},
-  "appTitle": "Rythem",
+  "appTitle": "BlackHole",
   "@appTitle": {},
   "artist": "אומן",
   "@artist": {},
@@ -313,7 +313,7 @@
   "@langSub": {},
   "included": "כלול",
   "@included": {},
-  "madeBy": "Made with ♥ by Potter's Devlopment (RishiAravind)",
+  "madeBy": "נוצר ב־♥ על ידי אנקיט סנגוואן",
   "@madeBy": {},
   "minAudioAlert": "אורך מקטע השמע המזערי (בשניות)",
   "@minAudioAlert": {},
@@ -463,7 +463,7 @@
   "@viewArtist": {},
   "loadLastSub": "לטעון את ההפעלה האחרונה אוטומטית עם פתיחת היישומון",
   "@loadLastSub": {},
-  "checkUpdateSub": "אם הורדת את Rythem מכל חנות יישומונים כגון ‚F-Droid‚, 'IzzyOnDroid’ וכו׳ שמספקות אפשרות לעדכון, יש לכבות אותה! עם זאת, אם הורדת אותו מ־‚GitHub’ או מכל מקור אחר שלא מספק עדכונים אוטומטיים כדאי להפעי את זה על מנת שיתקבלו התראות עדכון\n",
+  "checkUpdateSub": "אם הורדת את BlackHole מכל חנות יישומונים כגון ‚F-Droid‚, 'IzzyOnDroid’ וכו׳ שמספקות אפשרות לעדכון, יש לכבות אותה! עם זאת, אם הורדת אותו מ־‚GitHub’ או מכל מקור אחר שלא מספק עדכונים אוטומטיים כדאי להפעי את זה על מנת שיתקבלו התראות עדכון\n",
   "@checkUpdateSub": {},
   "inc": "עולה",
   "@inc": {},
@@ -688,5 +688,7 @@
   "blacklistHomeSections": "הוספת הסעיף הזה לרשימת חסימה",
   "@blacklistHomeSections": {},
   "blacklistHomeSectionsConfirm": "להוסיף את הסעיף הזה לרשימת חסימה? לאחר ההוספה, הוא לא יופיע עוד במסך הבית",
-  "@blacklistHomeSectionsConfirm": {}
+  "@blacklistHomeSectionsConfirm": {},
+  "folders": "תיקיות",
+  "@folders": {}
 }
