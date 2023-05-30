@@ -25,10 +25,10 @@ An Open-Source Music Player App for all your needs!
      height="90">](https://t.me/blackhole_official)
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="90">](https://f-droid.org/packages/com.shadow.blackhole/)
+     height="90">](https://f-droid.org/packages/app.rythem.music/)
 [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
      alt="Get it on IzzyDroid"
-     height="90">](https://android.izzysoft.de/repo/apk/com.shadow.blackhole)
+     height="90">](https://android.izzysoft.de/repo/apk/app.rythem.music)
 
 ## Translations
 - [Turkish :tr:](/README.TR.md)

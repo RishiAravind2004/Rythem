@@ -8,7 +8,7 @@
 PRODUCT_NAME = blackhole
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.shadow.blackhole
+PRODUCT_BUNDLE_IDENTIFIER = app.rythem.music
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2023 com.shadow. All rights reserved.

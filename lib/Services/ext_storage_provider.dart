@@ -52,7 +52,7 @@ class ExtStorageProvider {
 
           // getting main path
           final String newPath = directory!.path
-              .replaceFirst('Android/data/com.shadow.blackhole/files', dirName);
+              .replaceFirst('Android/data/app.rythem.music/files', dirName);
 
           directory = Directory(newPath);
 
