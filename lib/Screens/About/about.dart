@@ -121,7 +121,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         AppLocalizations.of(context)!.aboutLine1,
                         textAlign: TextAlign.center,
                         style: const TextStyle(fontSize: 16),
-                      )
+                      ),
                       Text(
                         AppLocalizations.of(context)!.aboutLine2,
                         textAlign: TextAlign.center,
