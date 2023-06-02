@@ -295,7 +295,7 @@
   "@guest": {},
   "home": "Home",
   "@home": {},
-  "homeGreet": "Hi There,",
+  "homeGreet": "Welcome Back!,",
   "@homeGreet": {},
   "importFile": "Import from File",
   "@importFile": {},

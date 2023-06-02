@@ -270,7 +270,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         children: <TextSpan>[
                           TextSpan(
-                            text: appVersion == null ? '' : '\nv$appVersion',
+                            text: appVersion == null ? '' : '',
                             style: const TextStyle(
                               fontSize: 7.0,
                             ),
