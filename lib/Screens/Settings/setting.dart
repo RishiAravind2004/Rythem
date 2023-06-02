@@ -3855,7 +3855,7 @@ class _SettingPageState extends State<SettingPage>
                             Share.share(
                               '${AppLocalizations.of(
                                 context,
-                              )!.shareAppText}: https://RishiAravind2004.github.io/',
+                              )!.shareAppText}: https://rishiaravind2004-website.pages.dev/download-rythem-app/',
                             );
                           },
                           dense: true,
