@@ -3865,29 +3865,6 @@ class _SettingPageState extends State<SettingPage>
                             AppLocalizations.of(
                               context,
                             )!
-                                .likedWork,
-                          ),
-                          subtitle: Text(
-                            AppLocalizations.of(
-                              context,
-                            )!
-                                .buyCoffee,
-                          ),
-                          dense: true,
-                          onTap: () {
-                            launchUrl(
-                              Uri.parse(
-                                'https://www.buymeacoffee.com/ankitsangwan',
-                              ),
-                              mode: LaunchMode.externalApplication,
-                            );
-                          },
-                        ),
-                        ListTile(
-                          title: Text(
-                            AppLocalizations.of(
-                              context,
-                            )!
                                 .donateGpay,
                           ),
                           subtitle: Text(
@@ -3900,7 +3877,7 @@ class _SettingPageState extends State<SettingPage>
                           isThreeLine: true,
                           onTap: () {
                             const String upiUrl =
-                                'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=Rythem';
+                                'upi://pay?pa=rishikesh1878@oksbi&pn=Rythem';
                             launchUrl(
                               Uri.parse(upiUrl),
                               mode: LaunchMode.externalApplication,
@@ -3909,7 +3886,7 @@ class _SettingPageState extends State<SettingPage>
                           onLongPress: () {
                             copyToClipboard(
                               context: context,
-                              text: 'ankit.sangwan.5688@oksbi',
+                              text: 'rishikesh1878@oksbi',
                               displayText: AppLocalizations.of(
                                 context,
                               )!
@@ -3926,7 +3903,7 @@ class _SettingPageState extends State<SettingPage>
                             onPressed: () {
                               copyToClipboard(
                                 context: context,
-                                text: 'ankit.sangwan.5688@oksbi',
+                                text: 'rishikesh1878@oksbi',
                                 displayText: AppLocalizations.of(
                                   context,
                                 )!
@@ -3985,7 +3962,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Drythemyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
+                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Drythem.music.app%40gmail.com%26subject%3DRythem%2520Music%2520App%2520Support📧',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4005,37 +3982,6 @@ class _SettingPageState extends State<SettingPage>
                                           children: [
                                             IconButton(
                                               icon: const Icon(
-                                                MdiIcons.telegram,
-                                              ),
-                                              iconSize: 40,
-                                              tooltip: AppLocalizations.of(
-                                                context,
-                                              )!
-                                                  .tg,
-                                              onPressed: () {
-                                                Navigator.pop(context);
-                                                launchUrl(
-                                                  Uri.parse(
-                                                    'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
-                                                  ),
-                                                  mode: LaunchMode
-                                                      .externalApplication,
-                                                );
-                                              },
-                                            ),
-                                            Text(
-                                              AppLocalizations.of(
-                                                context,
-                                              )!
-                                                  .tg,
-                                            ),
-                                          ],
-                                        ),
-                                        Column(
-                                          mainAxisSize: MainAxisSize.min,
-                                          children: [
-                                            IconButton(
-                                              icon: const Icon(
                                                 MdiIcons.instagram,
                                               ),
                                               iconSize: 40,
@@ -4047,7 +3993,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://instagram.com/RishiAravind2004',
+                                                    'https://instagram.com/mr_p.otter',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4069,101 +4015,6 @@ class _SettingPageState extends State<SettingPage>
                               },
                             );
                           },
-                        ),
-                        ListTile(
-                          title: Text(
-                            AppLocalizations.of(
-                              context,
-                            )!
-                                .joinTg,
-                          ),
-                          subtitle: Text(
-                            AppLocalizations.of(
-                              context,
-                            )!
-                                .joinTgSub,
-                          ),
-                          onTap: () {
-                            showModalBottomSheet(
-                              context: context,
-                              builder: (BuildContext context) {
-                                return SizedBox(
-                                  height: 100,
-                                  child: GradientContainer(
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceEvenly,
-                                      children: [
-                                        Column(
-                                          mainAxisSize: MainAxisSize.min,
-                                          children: [
-                                            IconButton(
-                                              icon: const Icon(
-                                                MdiIcons.telegram,
-                                              ),
-                                              iconSize: 40,
-                                              tooltip: AppLocalizations.of(
-                                                context,
-                                              )!
-                                                  .tgGp,
-                                              onPressed: () {
-                                                Navigator.pop(context);
-                                                launchUrl(
-                                                  Uri.parse(
-                                                    'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
-                                                  ),
-                                                  mode: LaunchMode
-                                                      .externalApplication,
-                                                );
-                                              },
-                                            ),
-                                            Text(
-                                              AppLocalizations.of(
-                                                context,
-                                              )!
-                                                  .tgGp,
-                                            ),
-                                          ],
-                                        ),
-                                        Column(
-                                          mainAxisSize: MainAxisSize.min,
-                                          children: [
-                                            IconButton(
-                                              icon: const Icon(
-                                                MdiIcons.telegram,
-                                              ),
-                                              iconSize: 40,
-                                              tooltip: AppLocalizations.of(
-                                                context,
-                                              )!
-                                                  .tgCh,
-                                              onPressed: () {
-                                                Navigator.pop(context);
-                                                launchUrl(
-                                                  Uri.parse(
-                                                    'https://t.me/rythem_official',
-                                                  ),
-                                                  mode: LaunchMode
-                                                      .externalApplication,
-                                                );
-                                              },
-                                            ),
-                                            Text(
-                                              AppLocalizations.of(
-                                                context,
-                                              )!
-                                                  .tgCh,
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                );
-                              },
-                            );
-                          },
-                          dense: true,
                         ),
                         ListTile(
                           title: Text(
