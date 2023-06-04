@@ -160,7 +160,7 @@ class _AboutScreenState extends State<AboutScreen> {
                       ),
                       onPressed: () {
                         const String upiUrl =
-                            'upi://pay?pa=rishikesh1878@oksbi@oksbi&pn=Rythem&mc=5732&aid=uGICAgIDn98OpSw&tr=BCR2DN6T37O6DB3Q';
+                            'upi://pay?pa=rishikesh1878@oksbi&pn=Rythem';
                         launchUrl(
                           Uri.parse(upiUrl),
                           mode: LaunchMode.externalApplication,
