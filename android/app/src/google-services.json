@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "810881406155",
+    "project_id": "rythem-new",
+    "storage_bucket": "rythem-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810881406155:android:53720195ccc6ad9ef4b74e",
+        "android_client_info": {
+          "package_name": "app.rythem.music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810881406155-v9cdd0gor3hu3loi1v1rq655grnoietl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.rythem.music",
+            "certificate_hash": "7cb67df90196d4c85be2a6debb068ec097f04621"
+          }
+        },
+        {
+          "client_id": "810881406155-vs9uq6b94atrmi2ptbc7a4g3ke7nmg8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuIifhpkI85FmATx9iq-bazuZVO9CCV1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810881406155-vs9uq6b94atrmi2ptbc7a4g3ke7nmg8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
