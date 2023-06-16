@@ -54,7 +54,7 @@ class Download with ChangeNotifier {
   int? rememberOption;
   final ValueNotifier<bool> remember = ValueNotifier<bool>(false);
   String preferredDownloadQuality = Hive.box('settings')
-      .get('downloadQuality', defaultValue: '320 kbps') as String;
+      .get('downloadQuality', defaultValue: '96 kbps') as String;
   String preferredYtDownloadQuality = Hive.box('settings')
       .get('ytDownloadQuality', defaultValue: 'High') as String;
   String downloadFormat = Hive.box('settings')
