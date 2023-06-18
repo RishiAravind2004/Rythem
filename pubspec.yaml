@@ -4,7 +4,7 @@ description: An Music Player App.
 # Prevent accidental publishing to pub.dev.
 publish_to: "none"
 
-version: 1.0.1+8
+version: 1.0.1+9
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
@@ -75,7 +75,7 @@ flutter:
 
 msix_config:
   display_name: Rythem
-  publisher_display_name: Ankit Sangwan
+  publisher_display_name: Mr Potter
   identity_name: app.rythem.music
   icons_background_color: transparent
   logo_path: assets/ic_launcher.png
